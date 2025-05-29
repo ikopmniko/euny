@@ -10,12 +10,12 @@ SUPABASE_TABLE_NAME = "eunya"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # API Serper
-API_KEY = "7a84efb656e84954e648b3043e04d6ee8546b76a"
+API_KEY = "8a7c71d620d04f3a08e40315b37c79df4b31be7a"
 URL_API = "https://google.serper.dev/search"
 
 # Rentang baris yang akan diproses
-mulai = 2500
-endnya = 5000
+mulai = 5000
+endnya = 7500
 
 headers = {
     "X-API-KEY": API_KEY,
